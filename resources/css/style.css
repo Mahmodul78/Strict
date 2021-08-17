@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*--------------- Header Section Start ---------------*/
+nav{
+    background-color: #f6f9f9;
+}
+#navbar{
+    padding: 1.5rem;
+    cursor: pointer;
+    color: #2d3950;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+#navbar .active{
+    color: #15a4fa;
+}
+#navbar .active:hover{
+    color: #2d3950;
+}
+.main_nav li a{
+    color: #2d3950;
+}
+.logo img {
+    width: 10rem;
+}
+.menu ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.menu ul li a:hover{
+    color: #15a4fa;
+}
+
+/* Sticky Menu Start */
+.sticky {
+    position: fixed;
+    width: 100%;
+    background: #f6f9f9;
+    -webkit-box-shadow: 0 0.2rem .2rem rgba(49, 57, 75, 0.7);
+            box-shadow: 0 0.2rem .2rem rgba(49, 57, 75, 0.7);
+    padding: 1.8rem;
+    z-index: 1;
+}
+
+
+/*--------------- Strict Section Start ---------------*/
+.strict{
+    background: -o-linear-gradient(rgba(119, 126, 141, 0.7),rgba(119, 126, 141, 0.9)),url(../img/strict.jpg);
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(119, 126, 141, 0.7)),to(rgba(119, 126, 141, 0.9))),url(../img/strict.jpg);
+    background: linear-gradient(rgba(119, 126, 141, 0.7),rgba(119, 126, 141, 0.9)),url(../img/strict.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    text-align: center;
+}
+.strict-part {
+    color: #fff;
+    padding-top: 20rem;
+    padding-bottom: 7rem;
+}
+.strict-part h2 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.strict-part h2:after{
+    content: "";
+    display: block;
+    height: .2rem;
+    width: 47rem;
+    background-color: #15a4fa;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.strict-part p {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+button.btn.btn_1 {
+    padding: 1rem;
+    background: transparent;
+    color: #fff;
+    margin-top: 3rem;
+    border: 0.2rem solid #15a4fa;
+    border-radius: .7rem;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.fa-chevron-down{
+    display: block;
+    margin-top: 10rem;
+    font-size: 1.5rem;
+}
+
+/*--------------- Simple Section Start ---------------*/
+.simple{
+    background-color: #f6f9f9;
+    padding: 7rem;
+}
+.simple-part{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.simple h2{
+    color: #2d3950;
+    font-size: 4rem;
+}
+.simple p{
+    font-size: 2rem;
+    color: #999999;
+    padding-top: 2rem;
+}
+
+/*--------------- Icon Section Start ---------------*/
+.icon_s{
+    background-color: #ffffff;
+    padding: 6rem;
+}
+.category{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: auto;
+}
+.category img{
+    width: 7rem;
+    margin-bottom: 1.5rem;
+}
+.category h2{
+    font-size: 2.2rem;
+    color: #2d3950;
+    margin-bottom: 1.5rem;
+}
+.category p{
+    font-size: 1.5rem;
+    color: #999999;
+}
+
+/*--------------- Gallery Section Start ---------------*/
+.gallery{
+    background-color: #f6f9f9;
+    padding: 6rem;
+}
+.gallery_s h2{
+    font-size: 4.1rem;
+    color: #2d3950;
+    text-align: center;
+}
+.gallery_s p{
+    font-size: 1.5rem;
+    color: #909090;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.gallery_part .p_1,.p_2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+/* For image hover */
+.container{
+    position: relative;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.container .image{
+  opacity: 1;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.middle {
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover{
+    background-color: #2cacf7;
+}
+.container:hover .image {
+    opacity: 0.3;
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.search_icon{
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.search_icon .fa-search-plus{
+    border: .2rem solid white;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    margin-right: 1rem;
+}
+.search_icon .fa-link{
+    border: .2rem solid white;
+    border-radius: .5rem;
+    padding: 1.5rem;
+}
+
+
+/*--------------- Contact Section Start ---------------*/
+.contact{
+    background: -o-linear-gradient(rgba(49, 57, 75, 0.7),rgba(49, 57, 75, 0.7)),url(../img/contact.png);
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(49, 57, 75, 0.7)),to(rgba(49, 57, 75, 0.7))),url(../img/contact.png);
+    background: linear-gradient(rgba(49, 57, 75, 0.7),rgba(49, 57, 75, 0.7)),url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 7rem;
+}
+.contact_p h2{
+    font-size: 4.1rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.contact_p p{
+    font-size: 1.5rem;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.input_p {
+    width: 40rem;
+    margin: auto;
+    display: grid;
+}
+.input_p input,textarea {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #999999;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: #999999;
+    font-size: 1.5rem;
+}
+::-moz-placeholder{
+    color: #999999;
+    font-size: 1.5rem;
+}
+:-ms-input-placeholder{
+    color: #999999;
+    font-size: 1.5rem;
+}
+::-ms-input-placeholder{
+    color: #999999;
+    font-size: 1.5rem;
+}
+::placeholder{
+    color: #999999;
+    font-size: 1.5rem;
+}
+.input_p ul li{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+.input_p .btn_2{
+    font-size: 1.8rem;
+    color: #ffffff;
+    background: transparent;
+    padding: .5rem 2rem;
+    outline: none;
+    border: .1rem solid #15a4fa;
+    cursor: pointer;
+}
+.unorderlist{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+ul li::marker {
+    color: #9aa0a9;
+    font-size: 2rem;
+}
+
+/*--------------- Footer Section Start ---------------*/
+.footer{
+    background: #f6f9f9;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.footer a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #999999;
+}
+.social i{
+    background: #15a4fa;
+    width: 3rem;
+    padding: 1rem;
+    color: white;
+    margin-right: .5rem;
+    cursor: pointer;
+}

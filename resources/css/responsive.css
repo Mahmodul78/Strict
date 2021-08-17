@@ -1,0 +1,116 @@
+@media only screen and (max-width:1024px){
+    .container .image{
+        width: 27rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .simple .simple-part p {
+        font-size: 1.6rem;
+    }
+    .category .device img {
+        width: 5rem;
+    }
+    .category .device h2 {
+        font-size: 1.7rem;
+    }
+    .category .device p {
+        font-size: 1.2rem;
+    }
+    .category .minimal img {
+        width: 5rem;
+    }
+    .category .minimal h2 {
+        font-size: 1.7rem;
+    }
+    .category .minimal p {
+        font-size: 1.2rem;
+    }
+    .category .mike_icon img {
+        width: 5rem;
+    }
+    .category .mike_icon h2 {
+        font-size: 1.7rem;
+    }
+    .category .mike_icon p {
+        font-size: 1.2rem;
+    }
+    .container .image{
+        width: 18rem;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+    #navbar .logo img {
+        width: 5rem;
+    }
+    #navbar .menu ul li a{
+        padding: .5rem;
+        font-size: 1rem;
+    }
+    .strict .strict-part .btn_1{
+        font-size: 1rem;
+    }
+    .strict .strict-part{
+        padding-top: 14rem;
+        padding-bottom: 1rem;
+    }
+    .strict .strict-part h2 {
+        font-size: 3rem;
+    }
+    .strict .strict-part h2:after{
+        width: 25rem;
+    }
+    .strict .strict-part p{
+        font-size: .9rem;
+    }  
+    .simple .simple-part h2{
+        font-size: 1.5rem;
+    }
+    .simple .simple-part p {
+        font-size: 1.4rem;
+    }
+    .icon_s .category{
+        display: block;
+    }
+    .icon_s .category .device,.minimal{
+        margin-bottom: 5rem;
+    }
+    .gallery .gallery_s h2 {
+        font-size: 2.5rem;
+    }
+    .gallery .gallery_part .p_1 {
+        display: block;
+    }
+    .gallery .gallery_part .p_2 {
+        display: block;
+    }
+    .gallery .container{
+        margin-right: 0;
+    }
+    .container .image{
+        width: 100%;
+    }
+    .contact .contact_p h2{
+        font-size: 3.1rem;
+    }
+    .contact .contact_p p{
+        font-size: 1.1rem;
+    }
+    .contact .input_p {
+        width: 100%;
+    }
+    .contact .input_p ul li{
+        font-size: 1.1rem;
+    }
+    .contact ul li::marker {
+        font-size: 1rem;
+    }
+    .contact .input_p .btn_2{
+        font-size: 1rem;
+    }
+    .footer a span{
+        font-size: 1rem;
+    }
+
+}
